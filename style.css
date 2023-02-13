@@ -1,0 +1,13 @@
+* {
+    border: 1px solid red;
+}
+.header {
+    display: flex;
+}
+.header div {
+    flex: 1;
+}
+.header #user {
+    display: flex;
+    flex: 0.5;
+}
