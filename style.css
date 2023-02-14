@@ -1,8 +1,18 @@
-* {
+*{ 
     border: 1px solid red;
+    margin:0;
 }
 .header {
     display: flex;
+    background-color: black;
+    color: white;
+    font: 1.2em sans-serif;
+    height: 5em;
+    width: auto;
+}
+.header img{
+    padding: 0.5em;
+    height: 80%;
 }
 .header div {
     flex: 1;
@@ -10,4 +20,18 @@
 .header #user {
     display: flex;
     flex: 0.5;
+}
+
+.right-al {
+    margin: auto;
+    margin-right:1%;
+    text-align: right;
+}
+.left-al {
+    text-align: left;
+    margin: auto;
+}
+.logo {
+    height: auto;
+    width: auto;
 }
