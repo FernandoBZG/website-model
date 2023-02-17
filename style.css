@@ -7,19 +7,18 @@
     background-color: black;
     color: white;
     font: 1.2em sans-serif;
-    height: 5em;
+    height: 2.5em;
     width: auto;
 }
 .header img{
-    padding: 0.5em;
-    height: 80%;
+    height: 2.5em;
 }
 .header div {
     flex: 1;
 }
 .header #user {
     display: flex;
-    flex: 0.5;
+    flex: 0.25;
 }
 
 .right-al {
@@ -34,4 +33,20 @@
 .logo {
     height: auto;
     width: auto;
+}
+.container {
+    height:auto;
+    padding: 16px 16px 16px 16px;
+    background: plum;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.item {
+    width: 50em;
+    height: 30em;
+    border: 4px solid darkslategray;
+    background: skyblue;
+    margin: 1em;
 }
